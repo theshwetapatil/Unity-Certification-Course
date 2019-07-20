@@ -1,0 +1,13 @@
+Editor Interface
+
+To select default layout- Window->Layouts->Default
+Tabs~Windows~Views[Unity]~Editors[Unity]
+
+Important Views:
+Asset Store
+Console
+Hierarchy
+Inspector
+Project 
+Scene
+Toolbar*
