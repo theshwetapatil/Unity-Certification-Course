@@ -11,3 +11,22 @@ Inspector
 Project 
 Scene
 Toolbar*
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benefits of using Asset Store:
+Free or Paid assets
+Editor extentions, scripts, 3D models
+Integrated download
+Licensed per-team
+Free to distribute in games except Editor Extention
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Scripts need to be attached to the objects in the hierarchy in order to execute.
+To see whitespaces in Visual Studio- CTR+R->CTR+W
+Linux and MAC - LF(Fine Feed)
+Windows- CRLF(Carriage Return Line Feed)
+Tools->Options->Text Editor->All Languages->Tabs-Keep Tabs
+			   ->C#		  ->Tabs-Keep Tabs
+Select lines to tabify
+Edit->Advanced->Tabify Selected Lines
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
