@@ -37,3 +37,9 @@ Showing parenting relationships
 Change Sorting Method:
 Alphabetical Sort- Sort by Names
 Transform Sort- Manual order
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Inspector
+Static- Flag to the Game Engine that GameObjet is not movable
+Layer- To restrict interactions between objects
+Tags for Finding object and Layers for Filtering operations over sets of objects
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
