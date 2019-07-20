@@ -28,5 +28,12 @@ Tools->Options->Text Editor->All Languages->Tabs-Keep Tabs
 Select lines to tabify
 Edit->Advanced->Tabify Selected Lines
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Rename GameObject- F2(Hotkey)
+Purpose of Hierarchy:
+Listing GameObjects in the Scene
+Adding and organising GameObjects
+Showing parenting relationships
 
-
+Change Sorting Method:
+Alphabetical Sort- Sort by Names
+Transform Sort- Manual order
