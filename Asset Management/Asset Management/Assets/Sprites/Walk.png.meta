@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: 9a8f07ea42541b84b83e3fcd2be11c2e
+timeCreated: 1563735320
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Walk_0
+    21300002: Walk_1
+    21300004: Walk_2
+    21300006: Walk_3
+    21300008: Walk_4
+    21300010: Walk_5
+    21300012: Walk_6
+    21300014: Walk_7
+    21300016: Walk_8
+    21300018: Walk_9
+    21300020: Walk_10
+    21300022: Walk_11
+    21300024: Walk_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Walk_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 421
+        width: 232
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56, y: 115.5}
+        - {x: 18, y: 159.5}
+        - {x: -46, y: 159.5}
+        - {x: -74, y: 130.5}
+        - {x: -116, y: 51.5}
+        - {x: -116, y: -159.5}
+        - {x: 116, y: -159.5}
+        - {x: 97, y: -93.5}
+        - {x: 116, y: -71.5}
+        - {x: 116, y: 21.5}
+    - name: Walk_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 408
+        width: 156
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: 166}
+        - {x: -78, y: -122}
+        - {x: -72, y: -144}
+        - {x: -62, y: -166}
+        - {x: -17, y: -166}
+        - {x: 78, y: -149}
+        - {x: 78, y: -87}
+        - {x: 62, y: -70}
+        - {x: 41, y: 153}
+        - {x: 26, y: 166}
+    - name: Walk_2
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 402
+        width: 161
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 14}
+        - {x: 17.5, y: 17}
+        - {x: 17.5, y: 20}
+        - {x: 22.5, y: 11}
+        - {x: 42.5, y: -18}
+        - {x: 52.5, y: -47}
+        - {x: 58.5, y: -58}
+        - {x: 80.5, y: -52}
+        - {x: 80.5, y: -2}
+        - {x: 28.5, y: 165}
+        - {x: 8.5, y: 169}
+        - {x: -66.5, y: 169}
+        - {x: -79.5, y: 159}
+        - {x: -80.5, y: 154}
+        - {x: -80.5, y: -158}
+        - {x: -69.5, y: -169}
+        - {x: 40.5, y: -169}
+        - {x: 43.5, y: -167}
+        - {x: 61.5, y: -123}
+        - {x: 32.5, y: -12}
+    - name: Walk_3
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 429
+        width: 225
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.5, y: -35.5}
+        - {x: -104.5, y: -39.5}
+        - {x: -64.5, y: -27.5}
+        - {x: -94.5, y: -125.5}
+        - {x: -101.5, y: -152.5}
+        - {x: -82.5, y: -155.5}
+        - {x: -34.5, y: -155.5}
+        - {x: -24.5, y: -143.5}
+        - {x: 35.5, y: -155.5}
+        - {x: 112.5, y: -155.5}
+        - {x: 112.5, y: 112.5}
+        - {x: 104.5, y: 155.5}
+        - {x: -94.5, y: 155.5}
+        - {x: -112.5, y: 118.5}
+    - name: Walk_4
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 427
+        width: 206
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 156.5}
+        - {x: -65, y: 118.5}
+        - {x: -61, y: 85.5}
+        - {x: -103, y: -15.5}
+        - {x: -103, y: -29.5}
+        - {x: -91, y: -38.5}
+        - {x: -70, y: -44.5}
+        - {x: -36, y: -8.5}
+        - {x: -103, y: -83.5}
+        - {x: -103, y: -132.5}
+        - {x: -59, y: -153.5}
+        - {x: -26, y: -156.5}
+        - {x: 103, y: -156.5}
+        - {x: 103, y: 139.5}
+        - {x: 51, y: 156.5}
+    - name: Walk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 230
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 161}
+        - {x: -94, y: 161}
+        - {x: -115, y: 28}
+        - {x: -115, y: -156}
+        - {x: -113, y: -161}
+        - {x: 115, y: -161}
+        - {x: 115, y: -3}
+        - {x: 113, y: -2}
+    - name: Walk_6
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 161
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 80}
+        - {x: 47.5, y: 169}
+        - {x: -58.5, y: 169}
+        - {x: -80.5, y: 145}
+        - {x: -80.5, y: 23}
+        - {x: -62.5, y: -168}
+        - {x: -61.5, y: -169}
+        - {x: 38.5, y: -169}
+        - {x: 73.5, y: -129}
+        - {x: 80.5, y: -79}
+        - {x: 80.5, y: -12}
+    - name: Walk_7
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 332
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Walk_8
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 3
+        width: 156
+        height: 335
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -129.5}
+        - {x: 61, y: -152.5}
+        - {x: 78, y: -140.5}
+        - {x: 78, y: -83.5}
+        - {x: 62, y: 108.5}
+        - {x: 15, y: 167.5}
+        - {x: -58, y: 167.5}
+        - {x: -78, y: 150.5}
+        - {x: -78, y: -78.5}
+        - {x: -71, y: -146.5}
+        - {x: -63, y: -167.5}
+        - {x: -35, y: -167.5}
+        - {x: -10, y: -157.5}
+        - {x: -1, y: -150.5}
+        - {x: -2, y: -147.5}
+    - name: Walk_9
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 24
+        width: 225
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.5, y: 12}
+        - {x: -112.5, y: -37}
+        - {x: -109.5, y: -47}
+        - {x: -95.5, y: -145}
+        - {x: -80.5, y: -157}
+        - {x: -65.5, y: -157}
+        - {x: -27.5, y: -153}
+        - {x: -25.5, y: -157}
+        - {x: 112.5, y: -157}
+        - {x: 112.5, y: 107}
+        - {x: 48.5, y: 157}
+        - {x: -23.5, y: 157}
+        - {x: -57.5, y: 141}
+        - {x: -57.5, y: 92}
+    - name: Walk_10
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 22
+        width: 202
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 158}
+        - {x: -45, y: 158}
+        - {x: -64, y: 99}
+        - {x: -101, y: 26}
+        - {x: -101, y: -158}
+        - {x: 90, y: -158}
+        - {x: 101, y: -139}
+        - {x: 101, y: 113}
+        - {x: 99, y: 125}
+    - name: Walk_11
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 332
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Walk_12
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 64
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
