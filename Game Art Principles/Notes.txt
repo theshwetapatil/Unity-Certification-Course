@@ -1,0 +1,33 @@
+Game Art Principle
+Avatar-Bones~Skeleton~Rigging
+Multiple materials - Add Metadata to Mesh
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CPU Bound Game
+GPU Bound Game
+Optimize to use less of CPU and run Game faster
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Balancing the Pipeline
+Single "Skinned Mesh Renderer" is CPU optimization, prevents from needing to update skeletal mesh according to animation
+Techniques 					CPU 		GPU 		Rule of Thumb
+Polygon Count 					- 		Yes 		Mobile:300-1500, Desktop:1500-4000
+Few Materials 					Yes 		- 		No more than 2 per mesh
+Few Bones 					Yes 		Yes 		Mobile:15-30, Desktop:15-60
+Separate Forward and Inverse Kinematics 	Yes 		- 		N/A
+Single "Skinned Mesh Renderer" 			Yes 		- 		N/A
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Art Choices:
+Cartoon, Photorealistic, Dreamy
+Hi-Poly vs Low-Poly
+Flat vs Complex Materials
+High vs Low Resolution Textures
+Foggy vs Clear
+Ambient Light Colour
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Colour PAlette: Unifying Colour
+Ensure colours will look pleasant
+Consistent with desired mood
+Less 'noise' by limiting colours
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Analogous colours- Colours close to each other on the colour wheel
+Complementary colours- Colours complete opposite of each other on the colour wheel
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
