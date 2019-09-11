@@ -3,5 +3,7 @@ Control which objects are visible
 Whether block Raycast or not
 If the layer is invisible to the camera
 ----------------------------------------------------------------------------
+Layers- To include/exclude gameobjects
+Tags- To identify gameobjects
 
 
