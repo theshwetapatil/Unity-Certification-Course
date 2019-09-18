@@ -1,0 +1,12 @@
+UI
+Canvas Render Mode
+Screen Space Overlay - Canvas is overlayed
+Screen Space Camera - Canvas is placed in front of camera
+World Space	- Very similar to screen space camera, 
+			  canvas can be moved anywhere in the world,
+			  particularly usedul VR games, where UI moved with head movement
+			  
+To set image for canvas- 
+	Convert target image from texture to sprite			  
+	Select "Preserv Aspect"
+	Click "Set Native Size"
