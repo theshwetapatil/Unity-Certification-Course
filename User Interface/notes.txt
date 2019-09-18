@@ -10,3 +10,10 @@ To set image for canvas-
 	Convert target image from texture to sprite			  
 	Select "Preserv Aspect"
 	Click "Set Native Size"
+----------------------------------------------------------------------------------------
+Pull out anchors to auto resize background
+Anchor Settings:
+Min X 0 Y 0
+Max X 1 Y 1
+Resize image to match anchors
+----------------------------------------------------------------------------------------
