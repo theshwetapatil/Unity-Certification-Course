@@ -17,3 +17,4 @@ Min X 0 Y 0
 Max X 1 Y 1
 Resize image to match anchors
 ----------------------------------------------------------------------------------------
+Link for fonts: https://www.dafont.com/
