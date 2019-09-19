@@ -51,6 +51,8 @@
      <Compile Include="Assets\Scripts\ConsoleWelcomer.cs" />
      <Compile Include="Assets\Scripts\ForceCalculator.cs" />
      <Compile Include="Assets\Scripts\LocationGetter.cs" />
+     <Compile Include="Assets\Scripts\MovementTest.cs" />
+     <Compile Include="Assets\Scripts\ProjectileMovement.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Unity 5.3.4/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
