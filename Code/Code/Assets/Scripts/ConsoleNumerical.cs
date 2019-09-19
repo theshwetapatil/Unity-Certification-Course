@@ -3,8 +3,8 @@ using System.Collections;
 
 public class ConsoleNumerical : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         int INT = 2;
         float FLOAT = 2.0f;
         float FFLOAT = 4.0f;
@@ -17,7 +17,7 @@ public class ConsoleNumerical : MonoBehaviour {
         print("avg = " + avg);
         print("sqr = " + sqr);
 	}
-	
+
     float Square(float num)
     {
         return (num * num);
