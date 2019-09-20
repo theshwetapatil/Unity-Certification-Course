@@ -45,6 +45,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Mole Pack\MoleLifetime.cs" />
+     <Compile Include="Assets\Mole Pack\RandomSpawner.cs" />
      <Compile Include="Assets\Scripts\AverageCalculator.cs" />
      <Compile Include="Assets\Scripts\BallSpawner.cs" />
      <Compile Include="Assets\Scripts\CameraAim.cs" />
