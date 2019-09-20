@@ -6,8 +6,10 @@ public class ProjectileMovement : MonoBehaviour {
     Vector3 newPosition;
     int speed = -5;
     public int force = -5;
-	// Use this for initialization
-	void Start () {
+    bool launched = false;
+
+    // Use this for initialization
+    void Start () {
         
     }
 	
@@ -26,8 +28,12 @@ public class ProjectileMovement : MonoBehaviour {
 
     void FixedUpdate()
     {
-        Rigidbody rb = GetComponent<Rigidbody>();
-        Vector3 offsetForce = new Vector3(0, force, 0);
-        rb.AddForce(offsetForce);
+        if (!launched)
+        {
+            Rigidbody rb = GetComponent<Rigidbody>();
+            Vector3 offsetForce = new Vector3(0, force, 0);
+            rb.AddForce(offsetForce, ForceMode.Impulse);
+            launched = true;
+        }
     }
 }

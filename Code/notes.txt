@@ -6,3 +6,8 @@ Order of Execution
 https://docs.unity3d.com/Manual/ExecutionOrder.html
 Start->FixedUpdate->Physics Calculation->Update
 ----------------------------------------------------------------------------------------
+Mouse Button number
+0-Left Click
+1-Right Click
+2-Middle Click
+----------------------------------------------------------------------------------------
