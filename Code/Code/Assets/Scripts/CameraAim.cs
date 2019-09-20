@@ -10,9 +10,15 @@ public class CameraAim : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+       
+    }
+
+    public Ray GetAimRay()
+    {
         Camera cam = GetComponent<Camera>();
         Vector3 mousePos = Input.mousePosition;
         Ray aimRay = cam.ScreenPointToRay(mousePos);
         Debug.DrawRay(aimRay.origin, aimRay.direction, Color.red);
+        return aimRay;
     }
 }

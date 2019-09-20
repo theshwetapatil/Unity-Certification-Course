@@ -32,7 +32,7 @@ public class ProjectileMovement : MonoBehaviour {
         {
             Rigidbody rb = GetComponent<Rigidbody>();
             Vector3 offsetForce = new Vector3(0, force, 0);
-            rb.AddForce(offsetForce, ForceMode.Impulse);
+            rb.AddForce(transform.forward * offsetForce.magnitude, ForceMode.Impulse);
             launched = true;
         }
     }
