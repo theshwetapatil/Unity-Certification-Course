@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AverageCalculator.cs" />
      <Compile Include="Assets\Scripts\BallSpawner.cs" />
+     <Compile Include="Assets\Scripts\CameraAim.cs" />
      <Compile Include="Assets\Scripts\ConsoleNumerical.cs" />
      <Compile Include="Assets\Scripts\ConsolePrinter.cs" />
      <Compile Include="Assets\Scripts\ConsoleWelcomer.cs" />
