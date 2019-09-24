@@ -1,0 +1,3 @@
+Albedo- Base color of material
+Metalic- 0-Plastic 1-Metalic, Smoothness- 1-Mirror
+Normal Map- Adds surface detail efficiently
