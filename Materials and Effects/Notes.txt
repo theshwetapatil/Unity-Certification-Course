@@ -13,4 +13,7 @@ Shader- A program that runs on GPU, not CPU
 		Dectates how to shade surfaces of objects
 Cutout Material- For object like grass, barbed wire
 Specular Setup- Can change color of specular reflection
-Fade Render Mode- Makes specular reflections transparent as well as diffuse reflections					  
+Fade Render Mode- Makes specular reflections transparent as well as diffuse reflections	
+----------------------------------------------------------------------------------------
+Antialiacing through camera is deprecated. The correct way to do antialiacing is through quality settings
+Antialiacing gets rid of sharp edges of objects				  
