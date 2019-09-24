@@ -26,3 +26,4 @@ Vortex gives bit more control than Twirl
 Crease Shading important for FPS to detect edges, important to highlight objects/areas
 Edge Detection gives more solid lines, useful for cartoon look
 ----------------------------------------------------------------------------------------
+Max Particles- Ensures top performance
