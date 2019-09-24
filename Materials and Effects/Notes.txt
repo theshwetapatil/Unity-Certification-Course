@@ -7,4 +7,10 @@ Emission- Creates the effect/illusion that the material is emitting light
 Detail Mask- Adds secodary level to to identify some details, 
 Advantage of Detail Mask- Add Low-Res texture + secondary map with more repeatitive detail
 						  to reduce size of textures significantly
-Tile increases, frequency of texture being repeated increases						  
+Tile increases, frequency of texture being repeated increases	
+----------------------------------------------------------------------------------------
+Shader- A program that runs on GPU, not CPU
+		Dectates how to shade surfaces of objects
+Cutout Material- For object like grass, barbed wire
+Specular Setup- Can change color of specular reflection
+Fade Render Mode- Makes specular reflections transparent as well as diffuse reflections					  
