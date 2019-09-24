@@ -1,3 +1,10 @@
 Albedo- Base color of material
 Metalic- 0-Plastic 1-Metalic, Smoothness- 1-Mirror
 Normal Map- Adds surface detail efficiently
+Height map/Dispalcement- Adds depth, leads to occlusion, parallax occlusion effect
+Occlusion- Areas of model in shadow where non-direct light/double light is not bounced back
+Emission- Creates the effect/illusion that the material is emitting light
+Detail Mask- Adds secodary level to to identify some details, 
+Advantage of Detail Mask- Add Low-Res texture + secondary map with more repeatitive detail
+						  to reduce size of textures significantly
+Tile increases, frequency of texture being repeated increases						  
