@@ -16,4 +16,13 @@ Specular Setup- Can change color of specular reflection
 Fade Render Mode- Makes specular reflections transparent as well as diffuse reflections	
 ----------------------------------------------------------------------------------------
 Antialiacing through camera is deprecated. The correct way to do antialiacing is through quality settings
-Antialiacing gets rid of sharp edges of objects				  
+Antialiacing gets rid of sharp edges of objects			
+Regular motion blur applies to objects, camera motion blur applies if camera itself moves
+Depth of Field allows to set focal distance
+Titl Shift to blur from top or botom (Titl Shift Mode) OR radial (Iris Mode), Effient Depth of Field
+Vignette and Chromatic Aberrarion useful for Cutback Scene
+Noise and Scratches gives old school film look
+Vortex gives bit more control than Twirl
+Crease Shading important for FPS to detect edges, important to highlight objects/areas
+Edge Detection gives more solid lines, useful for cartoon look
+----------------------------------------------------------------------------------------
