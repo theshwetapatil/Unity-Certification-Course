@@ -27,3 +27,5 @@ Crease Shading important for FPS to detect edges, important to highlight objects
 Edge Detection gives more solid lines, useful for cartoon look
 ----------------------------------------------------------------------------------------
 Max Particles- Ensures top performance
+Sub Emmiters- Adds inherited particle system
+----------------------------------------------------------------------------------------
