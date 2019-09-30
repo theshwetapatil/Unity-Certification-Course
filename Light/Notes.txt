@@ -9,3 +9,5 @@ Point Light- Round cookie
 Spotlight- Flat cookie
 
 Culling Mask- Selection of layers prevfenting GameObjects from being illuminated by one light
+
+Shadow Acne can be resoved using Bias and Normal Bias
