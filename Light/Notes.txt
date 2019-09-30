@@ -11,3 +11,4 @@ Spotlight- Flat cookie
 Culling Mask- Selection of layers prevfenting GameObjects from being illuminated by one light
 
 Shadow Acne can be resoved using Bias and Normal Bias
+Set walls and cube to Lightmap Static for baking light inside room/cave
