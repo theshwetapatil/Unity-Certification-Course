@@ -1,0 +1,4 @@
+Directional Light- Direction/Rotation matters, position doesn't matter (Sun)
+Point Light- Position matters (Light bulb, Candle)
+Spotlight- Mix between Directional Light and Point Light(Spotlight in stage production)
+Area Light- Mostly for areas reflecting light
