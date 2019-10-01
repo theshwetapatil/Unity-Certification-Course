@@ -18,9 +18,19 @@ Baked GI Benefits- Uses less resources, less gpu time, less memory (Better on mo
 Final Gather- To improve quality, computes last bounce of light at full Baked Resolution
 Direct Illumination- Can cope with non-static objects in scene
 Baked Resolution- Controls the resolution of the GI per Unity unit
-Capsule mapping is quite hard
+Capsule UV mapping is quite hard
 On increasing Auto UV Max Distance- More charts are merged if the Auto UV Max Angle permits
 On decreasing Auto UV Max Angle- Increases the number of charts if any were merged
+
+Baked GI takes a lot of time to compute always
+Precomputed Realtime GI will recompute only if static geometry is moved
+Charting- 3D objects converted into 2D textures by unwrapping into charts
+Charts- Collection of vertices, often square
+Preserve UV- To create automatic charting, Use UV Unwrapped provided by the artist
+Uncheck Preserve UV to let Unity unwrap- to use less memory and run faster in Realtime GI
+Auto UV Max Distance- Small value-> Very close together charts
+Auto UV Max Angle- Small value-> Merged charts, number of charts goes down
+
 
 
 
