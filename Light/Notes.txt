@@ -12,3 +12,12 @@ Culling Mask- Selection of layers prevfenting GameObjects from being illuminated
 
 Shadow Acne can be resoved using Bias and Normal Bias
 Set walls and cube to Lightmap Static for baking light inside room/cave
+
+Precamputed GI Benefits- Move Lights
+Baked GI Benefits- Uses less resources, less gpu time, less memory (Better on mobile platforms)
+Final Gather- To improve quality, computes last bounce of light at full Baked Resolution
+Direct Illumination- Can cope with non-static objects in scene
+Baked Resolution- Controls the resolution of the GI per Unity unit
+
+
+
