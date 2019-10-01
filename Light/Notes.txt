@@ -18,6 +18,10 @@ Baked GI Benefits- Uses less resources, less gpu time, less memory (Better on mo
 Final Gather- To improve quality, computes last bounce of light at full Baked Resolution
 Direct Illumination- Can cope with non-static objects in scene
 Baked Resolution- Controls the resolution of the GI per Unity unit
+Capsule mapping is quite hard
+On increasing Auto UV Max Distance- More charts are merged if the Auto UV Max Angle permits
+On decreasing Auto UV Max Angle- Increases the number of charts if any were merged
+
 
 
 
