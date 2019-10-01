@@ -31,6 +31,22 @@ Uncheck Preserve UV to let Unity unwrap- to use less memory and run faster in Re
 Auto UV Max Distance- Small value-> Very close together charts
 Auto UV Max Angle- Small value-> Merged charts, number of charts goes down
 
+Dynamic objects are pretty dark compared to rest of the globally illuminated scene. 
+Because they're illuminated by direct light, not by any scattered light, they'll have less 
+light.
+Direct objects can be illuminated using Light Probes
+Light Probe recieves all the Global Illumination Light around it at Bake Time and
+at Run Time it helps dynamic objects to illuminate
+Dynamic objects find closest light probe to them/ planes they intersect with, and
+illuminates according to light probe at bake time 
+Light Probes are added in a group, Reflection probes are added individually
+Dynamic object averages the closest light probes to it to calculate light
+To apply reflection to specular object using reflection probe,
+the cube map is used only when an object is within the probes area of influence 
+Reflections can be generated on static objects only by using reflection probe
+Simplest way to layout a light probe group is in a regular grid
+
+
 
 
 
