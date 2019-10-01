@@ -46,6 +46,11 @@ the cube map is used only when an object is within the probes area of influence
 Reflections can be generated on static objects only by using reflection probe
 Simplest way to layout a light probe group is in a regular grid
 
+Directinal Modes go in increasing realism as well as memory
+[Direct Lights Only, Non-Directional, Directinal, Directinal Specular]
+Fog Mode- The way fog decays
+Skybox is default source of ambient light and reflections
+
 
 
 
