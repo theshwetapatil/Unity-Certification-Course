@@ -21,3 +21,4 @@ Raycast- Checking if an AI can see the player
 A ray travels in a straight line
 
 Default forward direction in Unity is Z
+Layermask = 1<<(Layer number)
