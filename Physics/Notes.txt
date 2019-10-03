@@ -18,3 +18,6 @@ Rigidbody+Collider- Solid object to move in code
 Static Collider- Scenery which must block physics objects
 Trigger Collider- Area of space which deals damage when entered
 Raycast- Checking if an AI can see the player
+A ray travels in a straight line
+
+Default forward direction in Unity is Z

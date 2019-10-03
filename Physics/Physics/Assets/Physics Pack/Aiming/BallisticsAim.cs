@@ -14,6 +14,7 @@ public class BallisticsAim : MonoBehaviour
         if (Physics.Raycast(ray, out hitInfo))
         {
             // Tell the ballistics solver what to aim for.
+            //print(hitInfo.point);
             solver.target = hitInfo.point;
         }
     }
