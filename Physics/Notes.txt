@@ -12,3 +12,9 @@ it calls OnTriggerEnter() method on any Component of current GameObjects, if exi
 Collider blocks physics objects but Trigger let them through
 Add Is Kinematic property to  control objects position through its transform and not physics
 To move collider programmatically, add rigidbody and set it to Kinematic
+
+Raycast- Line is projected until it hits something then returns that point
+Rigidbody+Collider- Solid object to move in code
+Static Collider- Scenery which must block physics objects
+Trigger Collider- Area of space which deals damage when entered
+Raycast- Checking if an AI can see the player

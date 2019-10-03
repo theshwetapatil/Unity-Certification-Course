@@ -17,7 +17,7 @@ public class MovingTarget : MonoBehaviour
     void Update()
     {
         // Move the target with a smooth cosine wave
-        var z = magnitude * Mathf.Cos(Time.time / timePerCycle * 2 * Mathf.PI);
-        transform.position = initialPosition + Vector3.forward * z;
+        var x = magnitude * Mathf.Cos(Time.time / timePerCycle * 2 * Mathf.PI);
+        transform.position = initialPosition + Vector3.left * x;
     }
 }
