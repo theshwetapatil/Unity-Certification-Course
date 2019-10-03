@@ -4,3 +4,9 @@ Collider with no rigidbody is static as per Unity
 Rigidbody stimulates physics of solid objects
 When rigidbody component is added to gameobject in order for it ro interact with 
 other objects, no need to add  collider if it already exists
+
+Trigger Collider is a collider that doesn't prevent things from going through it
+Mesh Collider should have Convex checked to enable Is Trigger
+When Trigger Collider comes in contact with another GameObject with Collider Component,
+it calls OnTriggerEnter() method on any Component of current GameObjects, if exists
+Collider blocks physics objects but Trigger let them through
