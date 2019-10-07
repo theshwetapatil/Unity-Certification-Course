@@ -1,0 +1,9 @@
+Audio Source- Clip attached to the audio, represented in waveform
+Audio Listner- Always attached to the gameobject that has the camera attached
+
+Doppler Effect- Compresses soun d waves in the direction of movement
+3D Audio- Volume decreases as the listner is further from the source
+
+Spatial Blend- Au7dio Source uses 3D audio
+To increase doppler effect, audio source component is required
+
