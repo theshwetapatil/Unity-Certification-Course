@@ -14,5 +14,8 @@ Reverb Zone- Sphere shaped. Used to gradually fade in a reverb setting
 Default Volume curve drop-off is Logarithmic
 Curve editing properties- Volume, Spatial, Spread, Reverb			 
 
-
-
+Audio Mixer is before audio listner but after audio sources
+Audio Sources can be connected to audio listner group
+Audio Mixer Snapshot saves settings of all mixer groups
+Audio Mixer View can reduce visible groups
+Audio Mixer can be used to centrailise volume control in the scene
