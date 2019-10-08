@@ -21,9 +21,9 @@ Audio Mixer View can reduce visible groups
 Audio Mixer can be used to centrailise volume control in the scene
 
 Properties for any Audio Effect can be changed in the Inspector 
-Pitch Shift- To increase the frequency of the audio over all
+Pitch Shift- To increase the frequency of the audio overall
 Echo- To repeat the audio clip attenuated and delayed
 Normalise- To attenuate high volume portions of an audio clip
-Attenuation- To lower the volume of the audio clip over all
+Attenuation- To lower the volume of the audio clip overall
 
 Order of Effects can affect the output heard by the listner
