@@ -19,3 +19,8 @@ None- If state A and B can transition to C, then nothing happens
 Current State- If state A and B can transition to C, then A will transition to C
 Next State- If state B can transition to C, then transition is interrupted
 Next State then Current State- If state A and B can transition to C, then B will transition to C
+
+Any State- To avoid duplicate transition when they are required from every state
+Cycle Offset- Shifts start point of animation
+Downside of Any State is transition cannot be changed based on the state it is coming from
+Mirror-n Animation gets flipped about axis of symmetry
