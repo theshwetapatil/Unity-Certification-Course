@@ -10,3 +10,12 @@ States and transitions of Animator Controller behave as a Finite State Machine
 Foot IK- Keeps the animation grounded
 Types of parameters in Transition of Animator Controller- Float, Int, Bool, Trigger
 
+"Has Exit time" is set- transition will happen at an exact point in the animation cycle
+Fixed Duration is set- Transition Duration is measured in seconds
+Order of transition, first that is possible will be taken
+
+A->B, Interruption:  
+None- If state A and B can transition to C, then nothing happens
+Current State- If state A and B can transition to C, then A will transition to C
+Next State- If state B can transition to C, then transition is interrupted
+Next State then Current State- If state A and B can transition to C, then B will transition to C
