@@ -29,3 +29,11 @@ Blend Trees can mix together Animations and Blend Trees
 Blend Tree should be used when there are multiple animations that should all contribute
 to varying degrees to the final result
 State Machine parameters are responsible for controlling the blend in Blend Tree
+
+2D Simple Directional- Only for directional movement (Moving left-right, not Turning left-right)
+Simple Directinal cannot have more than one movement in the same direction
+2D Freeform Directional- Allows multiple movements in the same direction
+2D Freeform Cartesian- Any type of movement
+Direct- Allows to independently tweak values and threshod for each and every parameter
+
+
