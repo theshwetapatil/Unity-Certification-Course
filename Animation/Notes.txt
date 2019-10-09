@@ -1,0 +1,4 @@
+Animation assets require gameobject
+Avatar asset allows retargeting of humenoid animations
+State in controller corresponds to an animation
+Animations are assets based off gameobject
