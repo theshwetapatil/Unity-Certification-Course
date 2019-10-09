@@ -6,3 +6,7 @@ Animations are assets based off gameobject
 Root Motion- Tranform is applied on animation. Uncheck when movement is done from script.
 Apply Root Motion moves the tranform to match the root of the animation
 States and transitions of Animator Controller behave as a Finite State Machine
+
+Foot IK- Keeps the animation grounded
+Types of parameters in Transition of Animator Controller- Float, Int, Bool, Trigger
+
