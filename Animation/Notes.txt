@@ -36,4 +36,9 @@ Simple Directinal cannot have more than one movement in the same direction
 2D Freeform Cartesian- Any type of movement
 Direct- Allows to independently tweak values and threshod for each and every parameter
 
+Sub-State Machine should be used to simplify large state machine
+State Machine Layer should be used to to run multiple animations at the same time
+Encapsulation in State Machine- Sub-State Machine don't rely on the states of the parent vice versa
+
+
 
