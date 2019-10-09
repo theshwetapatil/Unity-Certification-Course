@@ -2,3 +2,7 @@ Animation assets require gameobject
 Avatar asset allows retargeting of humenoid animations
 State in controller corresponds to an animation
 Animations are assets based off gameobject
+
+Root Motion- Tranform is applied on animation. Uncheck when movement is done from script.
+Apply Root Motion moves the tranform to match the root of the animation
+States and transitions of Animator Controller behave as a Finite State Machine
