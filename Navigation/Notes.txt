@@ -1,0 +1,5 @@
+Baking with regards to navigation is creating a mesh from all navigable surfaces of the navigation static objects
+NavMesh is an asset
+Generate NavMesh- Window->Navigation->Bake
+NavMeshAgent is required to do pathfinding on a NavMesh
+Height can affect the NavMesh movement under obstacles
