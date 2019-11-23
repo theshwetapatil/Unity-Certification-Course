@@ -1,0 +1,5 @@
+Unity Android build setup-
+https://www.youtube.com/watch?v=ojt7ITyklGk
+https://www.youtube.com/watch?v=_8qALJor1Cw
+Required jdk-8 - https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+Required sdk-tools r25.2.5 - https://androidsdkoffline.blogspot.com/p/android-sdk-tools.html
