@@ -1,0 +1,29 @@
+Audio Source- Clip attached to the audio, represented in waveform
+Audio Listner- Always attached to the gameobject that has the camera attached
+
+Doppler Effect- Compresses soun d waves in the direction of movement
+3D Audio- Volume decreases as the listner is further from the source
+
+Spatial Blend- Au7dio Source uses 3D audio
+To increase doppler effect, audio source component is required
+
+Reverb Zone- Sphere shaped. Used to gradually fade in a reverb setting
+ 			 Between min and max distances from reverb zone, the effect is partially applied
+			 Inside min area of two reverb zones, one of the two zone's setting is applied
+			 
+Default Volume curve drop-off is Logarithmic
+Curve editing properties- Volume, Spatial, Spread, Reverb			 
+
+Audio Mixer is before audio listner but after audio sources
+Audio Sources can be connected to audio listner group
+Audio Mixer Snapshot saves settings of all mixer groups
+Audio Mixer View can reduce visible groups
+Audio Mixer can be used to centrailise volume control in the scene
+
+Properties for any Audio Effect can be changed in the Inspector 
+Pitch Shift- To increase the frequency of the audio overall
+Echo- To repeat the audio clip attenuated and delayed
+Normalise- To attenuate high volume portions of an audio clip
+Attenuation- To lower the volume of the audio clip overall
+
+Order of Effects can affect the output heard by the listner

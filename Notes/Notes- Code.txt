@@ -1,0 +1,15 @@
+Rigidbody always updated from FixedUpdate method.
+Physics objects should change as per time, not as per frame.
+Physics calculations should happen at regular time intervals.
+----------------------------------------------------------------------------------------
+Order of Execution
+https://docs.unity3d.com/Manual/ExecutionOrder.html
+Start->FixedUpdate->Physics Calculation->Update
+----------------------------------------------------------------------------------------
+Mouse Button number
+0-Left Click
+1-Right Click
+2-Middle Click
+----------------------------------------------------------------------------------------
+Order of rotation for Euler- Z,X,Y
+----------------------------------------------------------------------------------------

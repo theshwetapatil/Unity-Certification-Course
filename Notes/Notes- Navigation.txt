@@ -1,0 +1,16 @@
+Baking with regards to navigation is creating a mesh from all navigable surfaces of the navigation static objects
+NavMesh is an asset
+Generate NavMesh- Window->Navigation->Bake
+NavMeshAgent is required to do pathfinding on a NavMesh
+Height can affect the NavMesh movement under obstacles
+
+For going under a ledge, fix Height property of NavMesh
+Make radius smaller, if AI isn't going through narrow spaces it could easily fit into
+Descrease max slope property if AI is attempting slopes which are unrealistically steep
+Changing step height modifies the maximum step the AI can climb
+
+NavMesh Obstacle- To model dynamic obstacles
+Carve property of NavMesh Obstacle- For an agent to find an efficient route around it when stationary
+Obstacle carves a hole in NavMesh a short while after the object stops moving
+When an agent doesn't carve the NavMesh it will do its best to avoid it but cannot route around it
+When recarving occurs Move Threshold is affected

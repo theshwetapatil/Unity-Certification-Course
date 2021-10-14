@@ -1,0 +1,58 @@
+Directional Light- Direction/Rotation matters, position doesn't matter (Sun)
+Point Light- Position matters (Light bulb, Candle)
+Spotlight- Mix between Directional Light and Point Light(Spotlight in stage production)
+Area Light- Mostly for areas reflecting light
+
+Draw Halo- Illuminates dust in the air
+Cookie- Effect of window blinds
+Point Light- Round cookie
+Spotlight- Flat cookie
+
+Culling Mask- Selection of layers prevfenting GameObjects from being illuminated by one light
+
+Shadow Acne can be resoved using Bias and Normal Bias
+Set walls and cube to Lightmap Static for baking light inside room/cave
+
+Precamputed GI Benefits- Move Lights
+Baked GI Benefits- Uses less resources, less gpu time, less memory (Better on mobile platforms)
+Final Gather- To improve quality, computes last bounce of light at full Baked Resolution
+Direct Illumination- Can cope with non-static objects in scene
+Baked Resolution- Controls the resolution of the GI per Unity unit
+Capsule UV mapping is quite hard
+On increasing Auto UV Max Distance- More charts are merged if the Auto UV Max Angle permits
+On decreasing Auto UV Max Angle- Increases the number of charts if any were merged
+
+Baked GI takes a lot of time to compute always
+Precomputed Realtime GI will recompute only if static geometry is moved
+Charting- 3D objects converted into 2D textures by unwrapping into charts
+Charts- Collection of vertices, often square
+Preserve UV- To create automatic charting, Use UV Unwrapped provided by the artist
+Uncheck Preserve UV to let Unity unwrap- to use less memory and run faster in Realtime GI
+Auto UV Max Distance- Small value-> Very close together charts
+Auto UV Max Angle- Small value-> Merged charts, number of charts goes down
+
+Dynamic objects are pretty dark compared to rest of the globally illuminated scene. 
+Because they're illuminated by direct light, not by any scattered light, they'll have less 
+light.
+Direct objects can be illuminated using Light Probes
+Light Probe recieves all the Global Illumination Light around it at Bake Time and
+at Run Time it helps dynamic objects to illuminate
+Dynamic objects find closest light probe to them/ planes they intersect with, and
+illuminates according to light probe at bake time 
+Light Probes are added in a group, Reflection probes are added individually
+Dynamic object averages the closest light probes to it to calculate light
+To apply reflection to specular object using reflection probe,
+the cube map is used only when an object is within the probes area of influence 
+Reflections can be generated on static objects only by using reflection probe
+Simplest way to layout a light probe group is in a regular grid
+
+Directinal Modes go in increasing realism as well as memory
+[Direct Lights Only, Non-Directional, Directinal, Directinal Specular]
+Fog Mode- The way fog decays
+Skybox is default source of ambient light and reflections
+
+
+
+
+
+

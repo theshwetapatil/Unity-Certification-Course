@@ -1,0 +1,54 @@
+Editor Interface
+
+To select default layout- Window->Layouts->Default
+Tabs~Windows~Views[Unity]~Editors[Unity]
+
+Important Views:
+Asset Store
+Console
+Hierarchy
+Inspector
+Project 
+Scene
+Toolbar*
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benefits of using Asset Store:
+Free or Paid assets
+Editor extentions, scripts, 3D models
+Integrated download
+Licensed per-team
+Free to distribute in games except Editor Extention
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Scripts need to be attached to the objects in the hierarchy in order to execute.
+To see whitespaces in Visual Studio- CTR+R->CTR+W
+Linux and MAC - LF(Fine Feed)
+Windows- CRLF(Carriage Return Line Feed)
+Tools->Options->Text Editor->All Languages->Tabs-Keep Tabs
+			   ->C#		  ->Tabs-Keep Tabs
+Select lines to tabify
+Edit->Advanced->Tabify Selected Lines
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Rename GameObject- F2(Hotkey)
+Purpose of Hierarchy:
+Listing GameObjects in the Scene
+Adding and organising GameObjects
+Showing parenting relationships
+
+Change Sorting Method:
+Alphabetical Sort- Sort by Names
+Transform Sort- Manual order
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Inspector
+Static- Flag to the Game Engine that GameObjet is not movable
+Layer- To restrict interactions between objects
+Tags for Finding object and Layers for Filtering operations over sets of objects
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Scene
+Hand Tool:
+Move- Click and Drag
+Orbit- ALT+Click and Drag
+Zoom- ALT+Right Click and Drag/ CTRL+Click
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CTRL+P- Play Video
+CTRL+SHIFT+P- Pause Video
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

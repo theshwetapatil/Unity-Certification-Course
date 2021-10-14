@@ -1,0 +1,24 @@
+Is Kinematic- Moving selected Rigid Body in code
+Anything with collider on it, has to be a rigidbody with Is Kinematic checked
+Collider with no rigidbody is static as per Unity
+Rigidbody stimulates physics of solid objects
+When rigidbody component is added to gameobject in order for it to interact with 
+other objects, no need to add  collider if it already exists
+
+Trigger Collider is a collider that doesn't prevent things from going through it
+Mesh Collider should have Convex checked to enable Is Trigger
+When Trigger Collider comes in contact with another GameObject with Collider Component,
+it calls OnTriggerEnter() method on any Component of current GameObjects, if exists
+Collider blocks physics objects but Trigger let them through
+Add Is Kinematic property to  control objects position through its transform and not physics
+To move collider programmatically, add rigidbody and set it to Kinematic
+
+Raycast- Line is projected until it hits something then returns that point
+Rigidbody+Collider- Solid object to move in code
+Static Collider- Scenery which must block physics objects
+Trigger Collider- Area of space which deals damage when entered
+Raycast- Checking if an AI can see the player
+A ray travels in a straight line
+
+Default forward direction in Unity is Z
+Layermask = 1<<(Layer number)

@@ -1,0 +1,31 @@
+Albedo- Base color of material
+Metalic- 0-Plastic 1-Metalic, Smoothness- 1-Mirror
+Normal Map- Adds surface detail efficiently
+Height map/Dispalcement- Adds depth, leads to occlusion, parallax occlusion effect
+Occlusion- Areas of model in shadow where non-direct light/double light is not bounced back
+Emission- Creates the effect/illusion that the material is emitting light
+Detail Mask- Adds secodary level to to identify some details, 
+Advantage of Detail Mask- Add Low-Res texture + secondary map with more repeatitive detail
+						  to reduce size of textures significantly
+Tile increases, frequency of texture being repeated increases	
+----------------------------------------------------------------------------------------
+Shader- A program that runs on GPU, not CPU
+		Dectates how to shade surfaces of objects
+Cutout Material- For object like grass, barbed wire
+Specular Setup- Can change color of specular reflection
+Fade Render Mode- Makes specular reflections transparent as well as diffuse reflections	
+----------------------------------------------------------------------------------------
+Antialiacing through camera is deprecated. The correct way to do antialiacing is through quality settings
+Antialiacing gets rid of sharp edges of objects			
+Regular motion blur applies to objects, camera motion blur applies if camera itself moves
+Depth of Field allows to set focal distance
+Titl Shift to blur from top or botom (Titl Shift Mode) OR radial (Iris Mode), Effient Depth of Field
+Vignette and Chromatic Aberrarion useful for Cutback Scene
+Noise and Scratches gives old school film look
+Vortex gives bit more control than Twirl
+Crease Shading important for FPS to detect edges, important to highlight objects/areas
+Edge Detection gives more solid lines, useful for cartoon look
+----------------------------------------------------------------------------------------
+Max Particles- Ensures top performance
+Sub Emmiters- Adds inherited particle system
+----------------------------------------------------------------------------------------
